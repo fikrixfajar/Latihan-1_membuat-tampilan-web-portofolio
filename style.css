@@ -1,0 +1,393 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CODE CSS NYA/ */
+body, h1 {
+    font-family: 'Antonio', sans-serif;
+}
+
+.bg {
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;    
+    position: relative;
+
+}
+
+.bg h1 {
+    width: 100%;
+    top: 25%;
+    text-align: center;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 3em;
+    color: rgb(231, 232, 233);
+    font-weight: bold;
+    position: absolute ;
+    padding: 2em 0em;
+    background-color: rgba(21, 21, 12, .5);
+}
+
+.container {
+    background-color: white;
+}
+
+
+
+.nav {
+    width: 100%;
+    background-color: #2b2828;
+    position: sticky;
+    top: 0;
+    display: inline-block;
+    text-align: right;
+    /* box-sizing: border-box; */
+}
+
+.nav ul {
+    display: inline;
+}
+
+.nav ul .fotocover img {
+    width: 40px;
+    margin: .3em 2em;
+    border-radius: 100%;
+    /* position: absolute; */
+}
+
+.nav ul .fotocover {
+    text-align: left;
+    position: absolute;
+}
+
+.nav li {
+    /* float: right; */
+    position: relative;
+    display: inline-flex;
+    text-align: right;
+}
+
+
+
+
+.nav a {
+    text-decoration: none;
+    color: rgb(232, 246, 248);
+    font-size: 18px;
+    padding: 15px 30px;
+
+}
+
+.nav a:hover {
+    background: rgb(62, 119, 119);
+    transition-duration: 0.5s;
+}
+
+
+/* CONTENT */
+.content {
+    margin-top: 2em;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    box-sizing: border-box;
+}
+
+/* Satu */
+.content .satu {
+    width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.content .satu img {
+    width: 180px;
+}
+.content .satu p {
+    text-align: justify;
+    margin-top: 1em;
+}
+
+
+
+.content .duadantiga {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5em;
+}
+
+
+
+
+/* Dua */
+.content .duadantiga .dua {
+    width: 450px;
+    text-align: center;
+}
+
+.content .duadantiga .dua img {
+    width: 180px;
+}
+.content .duadantiga .dua p {
+    text-align: justify;
+    margin-top: 1em;
+}
+
+
+
+
+/* Tiga */
+.content .duadantiga .tiga {
+    width: 450px;
+    text-align: center;
+}
+
+.content .duadantiga .tiga img {
+    width: 180px;
+}
+.content .duadantiga .tiga p {
+    text-align: justify;
+    margin-top: 1em;
+}
+
+
+
+
+p, label, button, .contact-kanan {
+    font-family: 'Abel', sans-serif;
+    font-size: 21px;
+}
+
+
+.portofolio h1, .kontak {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    margin: 3em auto;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+.fotoporto {
+    text-align: center;
+}
+
+.fotoporto img {
+    width: 200px;
+}
+
+
+hr {
+    width: 30em;
+    text-align: center;
+}
+
+.kontak {
+    margin-top: 1.5em;
+}
+
+.contact {
+    margin-top: -2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contact-kiri {
+    order: 1;
+    flex: 1;
+    margin-left: 7em;
+}
+
+
+.contact-kanan {
+    order: 2;
+    flex: 1;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+.contact-kanan img {
+    width: 75px;
+    margin-top: 1em;
+}
+
+.inisatu, .inidua, .initiga {
+    display: flex;
+}
+
+.contact-kanan p {
+    text-align: left;
+    position: relative;
+    box-sizing: border-box;
+    margin-left: 1em;
+    margin-top: 2em;
+
+}
+
+.contact label {
+    margin-top: 2em;
+}
+
+.contact input, button {
+    margin-top: 0.5em;
+    width: 80%;
+    height: 1.5em;
+}
+
+.contact .komen {
+    width: 80%;
+    height: 10em;
+}
+
+.contact button {
+    height: 1.5em;
+    color: white;
+    background-color: rgb(51, 214, 214);
+}
+
+
+.footer {
+    margin-top: 5em;
+    background-color: #333;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.ketuk {
+    display: none;
+}
+
+.footer p span {
+    color: rgb(33, 129, 207);
+}
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .fotocover {
+        display: none;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+    .content .satu, .duadantiga, .tiga {
+        margin-top: 5em;
+    }
+
+    .satu p, .duadantiga p{
+        width: 18em;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 2em;
+    }
+
+    .content .duadantiga {
+        display: block;
+        margin-top: 3em;
+
+    }
+    
+    .dua, .tiga {
+        margin: auto;
+    }
+
+    .fotoporto {
+    display: grid;
+    grid-template-columns: repeat(1 auto);
+    grid-template-rows: repeat(5 auto);
+    margin-top: 1em;
+    }
+
+    .fotoporto img {
+        justify-self: center;
+        width: 60%;
+        margin-top: 2em;
+    }
+
+    .contact {
+        display: block;
+        margin: -2em auto;
+    }
+
+    .inisatu, .inidua, .initiga {
+        display: inline-block;
+    }
+
+    .ketuk {
+        display: block;
+        font-family: 'Antonio', sans-seri;
+        margin-top: 2em;
+        font-weight: bold;
+        color: rgb(60, 68, 73);
+    }
+
+    .contact-kiri, .contact-kanan {
+        text-align: center;
+        margin-left: 0em;
+    }
+
+    .contact-kanan img {
+        margin: 1em 1em;
+    }
+
+    .contact-kanan p {
+        display: none;
+    }
+
+}
